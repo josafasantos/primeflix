@@ -77,12 +77,12 @@ export default function Filme() {
       <div className='area_button'>
         <button onClick={salvarFilme}>Salvar</button>
         <button>
-          <a target='_blank' rel="external noreferrer" href={`https://youtube.com/results?search_query=${filme.title} Trailer`}>
+          <a target='blank' href={`https://youtube.com/results?search_query=${filme.title} Trailer`}>
             Trailer
           </a>
         </button>
         <button>
-          <a target='_blank' rel="external noreferrer" href={`https://filmeonlinegratis.net/pesquisar/${filme.title}`}>
+          <a target='blank' href={`https://filmeonlinegratis.net/pesquisar/${filme.title}`}>
             Assistir Online
           </a>
         </button>
