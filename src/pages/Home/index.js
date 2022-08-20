@@ -21,7 +21,7 @@ export default function Home() {
           }
         })
 
-        const dados_filmes = respose.data.results.slice(0,10)
+        const dados_filmes = respose.data.results
 
         //console.log(dados_filmes)
 
